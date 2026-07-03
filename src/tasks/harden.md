@@ -33,7 +33,14 @@ so that my next app starts hardened by habit instead of by checklist.
 <step name="build_worklist" priority="first">
 1. Load the app's posture report; the work list = every FAIL, ordered by the
    report's risk × effort priority
-2. Re-run semantics: for controls the report marks PASSING, re-check their
+2. **PAUL-aware:** if the app has `.paul/phases/MIDAS-*` folders (a prior
+   `/midas export`), those CONTEXT.md files ARE the authoritative work list —
+   same findings, already prioritized, with acceptance criteria attached. Note
+   each folder's status (OPEN/VERIFY/RESOLVED). For M/L-effort findings,
+   recommend running the remediation as a proper PAUL plan (plan → audit →
+   apply → unify) seeded from the folder's CONTEXT.md — ceremony-grade evidence
+   beats direct fixes for anything nontrivial.
+3. Re-run semantics: for controls the report marks PASSING, re-check their
    evidence briefly (evidence may have rotted); skip only after the evidence
    re-check confirms. Stage never regresses from this task.
 
@@ -72,8 +79,14 @@ the EFFECT (never credentials).
    file is a failed gate.**
 2. Anything still failing goes back on the work list with a reason — the gate
    is honest, not aspirational.
-3. Registry: stage → `hardened` when the checklist is green.
-4. `base learn` per novel finding; new failure class → protocols.md growth
+3. **PAUL sync (when MIDAS-* folders exist):** for every finding this run
+   closed, flip its CONTEXT.md `Status:` to `RESOLVED ({date} — {evidence pointer})`
+   and update its row in the STATE.md notice block (between the MIDAS markers).
+   When ALL rows are RESOLVED, replace the block's instruction line with a
+   one-line all-clear recommending `/midas assess` to re-score — the block
+   itself is removed by the next export after that re-assess.
+4. Registry: stage → `hardened` when the checklist is green.
+5. `base learn` per novel finding; new failure class → protocols.md growth
    contract + a checklist line.
 
 Report: controls applied (with evidence pointers), controls still open (with
@@ -98,6 +111,7 @@ App repo (the control implementations); evidence notes under
 - [ ] Every applied control: taught (why + criterion) + applied via the stack adapter + evidenced + verified by exercising it
 - [ ] Audit-channel controls applied early so later work self-evidences
 - [ ] Security checklist run fail-closed; open items honest with reasons
+- [ ] MIDAS-* CONTEXT.md statuses + STATE notice rows synced for every finding closed (when the app is PAUL-exported)
 - [ ] Registry stage advanced only on green
 - [ ] Learnings logged; novel classes appended to protocols.md
 - [ ] Operator saw the applied/open split and the evidence pointers

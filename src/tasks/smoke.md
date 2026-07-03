@@ -83,6 +83,9 @@ deletes the gate's reason to exist.
 3. Note the smoke's existence in `~/.base-frameworks/midas/context/{app}/`
    and `base learn` any novel detector finding; new failure class → protocols.md
    per the growth contract
+4. PAUL sync: if the app has `.paul/phases/MIDAS-*` folders, flip any finding
+   this run closed to `RESOLVED ({date} — {evidence})` in its CONTEXT.md and
+   update its STATE.md notice row (per tasks/paul-export.md)
 </step>
 
 </steps>

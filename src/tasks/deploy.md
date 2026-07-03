@@ -92,7 +92,10 @@ If this app's rollback has never been exercised, exercise it now on DEV
 
 Then: run the relevant items of
 `~/.base-frameworks/midas/checklists/pre-deploy.md` (fail-closed if missing),
-update the registry row, `base learn` anything novel.
+update the registry row, `base learn` anything novel. PAUL sync: if the app has
+`.paul/phases/MIDAS-*` folders, flip any finding this run closed (e.g. the
+rollback drill) to `RESOLVED` in its CONTEXT.md and update its STATE.md notice
+row (per tasks/paul-export.md).
 </step>
 
 </steps>

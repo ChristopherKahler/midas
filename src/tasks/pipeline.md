@@ -103,7 +103,10 @@ map secret → env var, gate the step on the env var (job-level `if:` can't read
 2. Prove the gate bites: push a deliberately failing commit to dev (or use a
    draft PR) and confirm the platform HOLDS the deploy; revert.
 3. Update the registry row: stage → `piped` (never regress the stage).
-4. `base learn` anything novel discovered; if a new failure class was found and
+4. PAUL sync: if the app has `.paul/phases/MIDAS-*` folders, flip any finding
+   this run closed to `RESOLVED ({date} — {evidence})` in its CONTEXT.md and
+   update its STATE.md notice row (per tasks/paul-export.md).
+5. `base learn` anything novel discovered; if a new failure class was found and
    fixed, append it to protocols.md per the growth contract.
 
 Report to the operator: gates now standing between code and each environment,

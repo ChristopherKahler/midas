@@ -91,8 +91,11 @@ security team:
 Gate: no unmapped HIGH-RISK criterion — if one exists, the report routes back
 to `/midas harden` instead of shipping as "ready."
 
-Registry: stage → `compliant` only when the gate passes. `base learn` the
-readiness milestone. Present the report to the operator.
+Registry: stage → `compliant` only when the gate passes. PAUL sync: if the app
+has `.paul/phases/MIDAS-*` folders, flip any finding this run closed (e.g.
+subprocessor inventory) to `RESOLVED` in its CONTEXT.md and update its STATE.md
+notice row (per tasks/paul-export.md). `base learn` the readiness milestone.
+Present the report to the operator.
 </step>
 
 </steps>

@@ -91,7 +91,10 @@ Document rotation in the app's ops notes:
 2. Run `~/.base-frameworks/midas/checklists/security.md` items for the
    auth/secrets domain — fail-closed if the checklist file is missing
 3. Registry: update the app's row (stage advances per ladder; never regress)
-4. `base learn` novel findings; new failure class → protocols.md growth contract
+4. PAUL sync: if the app has `.paul/phases/MIDAS-*` folders, flip any finding
+   this run closed to `RESOLVED ({date} — {evidence})` in its CONTEXT.md and
+   update its STATE.md notice row (per tasks/paul-export.md)
+5. `base learn` novel findings; new failure class → protocols.md growth contract
 
 Report: what's provisioned (names only, never values), scan result, rotation
 policy location.
