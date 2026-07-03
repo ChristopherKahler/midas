@@ -17,14 +17,14 @@ audit on — the framework that preaches gates is built through gates.
 
 **v1.0 MIDAS Framework** (v1.0.0)
 Status: In progress
-Phases: 1 of 6 complete
+Phases: 2 of 6 complete
 
 ## Phases
 
 | Phase | Name | Plans | Status | Completed |
 |-------|------|-------|--------|-----------|
 | 1 | Skeleton & entry point | 1 | Complete | 2026-07-03 |
-| 2 | Reference frameworks | 1 | Not started | - |
+| 2 | Reference frameworks | 1 | Complete | 2026-07-03 |
 | 3 | Core tasks (9 playbooks) | 2 | Not started | - |
 | 4 | Checklists & templates | 1 | Not started | - |
 | 5 | Vendor AEGIS + agents | 1 | Not started | - |
@@ -53,7 +53,7 @@ Phases: 1 of 6 complete
 **Research:** Unlikely (content is Doc 2, already written)
 
 **Plans:**
-- [ ] 02-01: Author all six frameworks/ files per skillsmith frameworks spec
+- [x] 02-01: Author all six frameworks/ files per skillsmith frameworks spec
 
 ### Phase 3: Core tasks (9 playbooks)
 

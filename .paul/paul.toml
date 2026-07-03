@@ -15,8 +15,8 @@ status = "in_progress"
 phases = 6
 
 [phase]
-number = 1
-name = "Skeleton & entry point"
+number = 2
+name = "Reference frameworks"
 status = "complete"
 plans_completed = 1
 
@@ -27,6 +27,6 @@ position = "IDLE"
 groom = true
 
 [stats]
-total_plans = 1
+total_plans = 2
 total_phases = 6
-last_activity = "2026-07-03T12:05:00-05:00"
+last_activity = "2026-07-03T12:45:00-05:00"
