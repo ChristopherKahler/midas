@@ -89,9 +89,10 @@ deletes the gate's reason to exist.
 
 <output>
 ## Artifact
-Playwright smoke spec in the app repo (e.g. `tests/e2e/smoke.spec.ts`),
-green against a served prod build, implementing all four detectors serial +
-app-origin scoped.
+Playwright smoke spec in the app repo — placed per the app's existing Playwright
+`testDir` convention (e.g. graph-portal uses `tests/smoke/*.smoke.ts`; don't
+impose a different layout on an app that has one) — green against a served prod
+build, implementing all four detectors serial + app-origin scoped.
 
 ## Location
 App repo; run notes under `~/.base-frameworks/midas/context/{app}/`.
