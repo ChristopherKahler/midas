@@ -6,3 +6,9 @@ action = "plan"
 phase = 1
 plan = "01-01"
 at = "2026-07-03T11:40:00-05:00"
+
+[[entry]]
+action = "unify"
+phase = 1
+plan = "01-01"
+at = "2026-07-03T12:05:00-05:00"

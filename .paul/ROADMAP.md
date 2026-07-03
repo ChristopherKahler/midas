@@ -17,13 +17,13 @@ audit on — the framework that preaches gates is built through gates.
 
 **v1.0 MIDAS Framework** (v1.0.0)
 Status: In progress
-Phases: 0 of 6 complete
+Phases: 1 of 6 complete
 
 ## Phases
 
 | Phase | Name | Plans | Status | Completed |
 |-------|------|-------|--------|-----------|
-| 1 | Skeleton & entry point | 1 | Planning | - |
+| 1 | Skeleton & entry point | 1 | Complete | 2026-07-03 |
 | 2 | Reference frameworks | 1 | Not started | - |
 | 3 | Core tasks (9 playbooks) | 2 | Not started | - |
 | 4 | Checklists & templates | 1 | Not started | - |
@@ -44,7 +44,7 @@ Phases: 0 of 6 complete
 - Install surfaces: `~/.claude/commands/midas.md` + `~/.base-frameworks/midas/`
 
 **Plans:**
-- [ ] 01-01: Skeleton + router + install surfaces
+- [x] 01-01: Skeleton + router + install surfaces
 
 ### Phase 2: Reference frameworks
 
