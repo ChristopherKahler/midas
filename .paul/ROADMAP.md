@@ -16,8 +16,8 @@ audit on — the framework that preaches gates is built through gates.
 ## Current Milestone
 
 **v1.0 MIDAS Framework** (v1.0.0)
-Status: In progress
-Phases: 5 of 6 complete
+Status: Complete (shipped 2026-07-03)
+Phases: 6 of 6 complete
 
 ## Phases
 
@@ -28,7 +28,7 @@ Phases: 5 of 6 complete
 | 3 | Core tasks (9 playbooks) | 2 | Complete | 2026-07-03 |
 | 4 | Checklists & templates | 1 | Complete | 2026-07-03 |
 | 5 | Vendor AEGIS + agents | 1 | Complete | 2026-07-03 |
-| 6 | Dogfood, register, ship | 1 | Not started | - |
+| 6 | Dogfood, register, ship | 1 | Complete | 2026-07-03 |
 
 ## Phase Details
 
@@ -91,7 +91,7 @@ Phases: 5 of 6 complete
 **Research:** Unlikely
 
 **Plans:**
-- [ ] 06-01: Dogfood + register + ship
+- [x] 06-01: Dogfood + register + ship
 
 ---
 *Roadmap created: 2026-07-03*

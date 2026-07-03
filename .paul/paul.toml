@@ -1,5 +1,5 @@
 name = "12-ops-midas"
-version = "0.0.0"
+version = "1.0.0"
 status = "active"
 path = "frameworks/12-ops-midas"
 tags = ["development", "devops", "framework", "security"]
@@ -11,12 +11,12 @@ source = "https://chrisai.cv/skool"
 [milestone]
 name = "v1.0 MIDAS Framework"
 version = "1.0.0"
-status = "in_progress"
+status = "complete"
 phases = 6
 
 [phase]
-number = 5
-name = "Vendor AEGIS + agents"
+number = 6
+name = "Dogfood, register, ship"
 status = "complete"
 plans_completed = 1
 
@@ -27,6 +27,6 @@ position = "IDLE"
 groom = true
 
 [stats]
-total_plans = 6
+total_plans = 7
 total_phases = 6
-last_activity = "2026-07-03T15:20:00-05:00"
+last_activity = "2026-07-03T16:00:00-05:00"

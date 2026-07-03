@@ -42,3 +42,15 @@ action = "unify"
 phase = 5
 plan = "05-01"
 at = "2026-07-03T15:20:00-05:00"
+
+[[entry]]
+action = "unify"
+phase = 6
+plan = "06-01"
+at = "2026-07-03T16:00:00-05:00"
+
+[[entry]]
+action = "milestone_complete"
+phase = 6
+plan = "v1.0"
+at = "2026-07-03T16:00:00-05:00"
