@@ -17,7 +17,7 @@ audit on — the framework that preaches gates is built through gates.
 
 **v1.0 MIDAS Framework** (v1.0.0)
 Status: In progress
-Phases: 4 of 6 complete
+Phases: 5 of 6 complete
 
 ## Phases
 
@@ -27,7 +27,7 @@ Phases: 4 of 6 complete
 | 2 | Reference frameworks | 1 | Complete | 2026-07-03 |
 | 3 | Core tasks (9 playbooks) | 2 | Complete | 2026-07-03 |
 | 4 | Checklists & templates | 1 | Complete | 2026-07-03 |
-| 5 | Vendor AEGIS + agents | 1 | Not started | - |
+| 5 | Vendor AEGIS + agents | 1 | Complete | 2026-07-03 |
 | 6 | Dogfood, register, ship | 1 | Not started | - |
 
 ## Phase Details
@@ -82,7 +82,7 @@ Phases: 4 of 6 complete
 **Research topics:** aegis command entry points, agent invocation pattern, what to include vs exclude from the fork
 
 **Plans:**
-- [ ] 05-01: Vendor fork + adapters + wiring
+- [x] 05-01: Vendor fork + adapters + wiring
 
 ### Phase 6: Dogfood, register, ship
 
