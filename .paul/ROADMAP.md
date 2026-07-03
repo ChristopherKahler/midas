@@ -17,7 +17,7 @@ audit on — the framework that preaches gates is built through gates.
 
 **v1.0 MIDAS Framework** (v1.0.0)
 Status: In progress
-Phases: 2 of 6 complete
+Phases: 3 of 6 complete
 
 ## Phases
 
@@ -25,7 +25,7 @@ Phases: 2 of 6 complete
 |-------|------|-------|--------|-----------|
 | 1 | Skeleton & entry point | 1 | Complete | 2026-07-03 |
 | 2 | Reference frameworks | 1 | Complete | 2026-07-03 |
-| 3 | Core tasks (9 playbooks) | 2 | Not started | - |
+| 3 | Core tasks (9 playbooks) | 2 | Complete | 2026-07-03 |
 | 4 | Checklists & templates | 1 | Not started | - |
 | 5 | Vendor AEGIS + agents | 1 | Not started | - |
 | 6 | Dogfood, register, ship | 1 | Not started | - |
@@ -62,8 +62,8 @@ Phases: 2 of 6 complete
 **Research:** Unlikely (Doc 2 §B defines each)
 
 **Plans:**
-- [ ] 03-01: Critical five — assess, pipeline, smoke, secrets, harden
-- [ ] 03-02: Remaining four — provision, deploy, compliance, incident + graph-portal dry-run
+- [x] 03-01: Critical five — assess, pipeline, smoke, secrets, harden
+- [x] 03-02: Remaining four — provision, deploy, compliance, incident + graph-portal dry-run
 
 ### Phase 4: Checklists & templates
 
