@@ -17,7 +17,7 @@ audit on — the framework that preaches gates is built through gates.
 
 **v1.0 MIDAS Framework** (v1.0.0)
 Status: In progress
-Phases: 3 of 6 complete
+Phases: 4 of 6 complete
 
 ## Phases
 
@@ -26,7 +26,7 @@ Phases: 3 of 6 complete
 | 1 | Skeleton & entry point | 1 | Complete | 2026-07-03 |
 | 2 | Reference frameworks | 1 | Complete | 2026-07-03 |
 | 3 | Core tasks (9 playbooks) | 2 | Complete | 2026-07-03 |
-| 4 | Checklists & templates | 1 | Not started | - |
+| 4 | Checklists & templates | 1 | Complete | 2026-07-03 |
 | 5 | Vendor AEGIS + agents | 1 | Not started | - |
 | 6 | Dogfood, register, ship | 1 | Not started | - |
 
@@ -72,7 +72,7 @@ Phases: 3 of 6 complete
 **Research:** Unlikely (copy from working repo, generalize)
 
 **Plans:**
-- [ ] 04-01: Checklists + templates from graph-portal gold
+- [x] 04-01: Checklists + templates from graph-portal gold
 
 ### Phase 5: Vendor AEGIS + agents
 

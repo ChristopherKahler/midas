@@ -15,10 +15,10 @@ status = "in_progress"
 phases = 6
 
 [phase]
-number = 3
-name = "Core tasks (9 playbooks)"
+number = 4
+name = "Checklists & templates"
 status = "complete"
-plans_completed = 2
+plans_completed = 1
 
 [loop]
 position = "IDLE"
@@ -27,6 +27,6 @@ position = "IDLE"
 groom = true
 
 [stats]
-total_plans = 4
+total_plans = 5
 total_phases = 6
-last_activity = "2026-07-03T13:55:00-05:00"
+last_activity = "2026-07-03T14:45:00-05:00"
