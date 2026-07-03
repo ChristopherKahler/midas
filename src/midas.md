@@ -1,7 +1,7 @@
 ---
 name: midas
 type: suite
-version: 0.1.0
+version: 0.2.0
 category: operations
 description: MIDAS — Mission-critical Infrastructure, Deployment Assurance System. Opinionated DevOps + security/compliance delivery framework — local dev to enterprise-grade, audit-defensible production.
 allowed-tools: [Read, Write, Edit, Glob, Grep, Bash, AskUserQuestion]
@@ -59,6 +59,7 @@ executing. Takes positions — never offloads judgment onto the person learning.
 | `/midas harden` | Apply the security control checklist, control by control | `~/.base-frameworks/midas/tasks/harden.md` |
 | `/midas compliance` | Map controls → SOC2/HIPAA/GDPR, generate the evidence index | `~/.base-frameworks/midas/tasks/compliance.md` |
 | `/midas incident` | Incident response + post-incident reconstruction from the audit trail | `~/.base-frameworks/midas/tasks/incident.md` |
+| `/midas export` | Export findings into the app's PAUL project (MIDAS-prefixed remediation folders + STATE precedence notice) | `~/.base-frameworks/midas/tasks/paul-export.md` |
 </commands>
 
 <routing>

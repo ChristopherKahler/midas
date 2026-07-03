@@ -119,6 +119,9 @@ Then update the registry row per the schema contract:
 1. Log to BASE: `base learn --text "MIDAS assess: {app} scored {score}, top gap: {gap}" --domain development --type insight`
 2. Present the operator the score, the top 3 gaps, and ONE next action — the
    MIDAS task that closes the highest-priority gap.
+3. If the app is PAUL-managed (`.paul/` exists), offer `/midas export` — the
+   findings land as MIDAS-prefixed remediation folders + a STATE.md precedence
+   notice, so the app's own planning ceremony schedules the fixes.
 
 **Wait for the operator to choose before launching any follow-on task.**
 </step>
