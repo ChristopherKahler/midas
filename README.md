@@ -496,9 +496,9 @@ MIDAS is part of a broader Claude Code framework ecosystem.
 | **PAUL** | Project orchestration — Plan, Apply, Unify Loop | [GitHub](https://github.com/ChristopherKahler/paul) |
 | **SEED** | Typed project incubator — ideation through graduation | [GitHub](https://github.com/ChristopherKahler/seed) |
 | **Skillsmith** | Skill builder — standardized syntax specs and guided workflows | [GitHub](https://github.com/ChristopherKahler/skillsmith) |
-| **AI Builders & Operators** | The community around these frameworks — courses and live support | [Skool](https://chrisai.cv/skool) |
+| **AI Builders & Operators** | The community around these frameworks — courses and live support | [Skool](https://www.skool.com/claude-code-titans-9203) |
 
 ---
 
 Built by Chris Kahler
-[Chris AI Systems](https://chrisai.cv) / [AI Builders & Operators](https://chrisai.cv/skool) / [YouTube](https://www.youtube.com/@chris-ai-systems)
+[Chris AI Systems](https://chrisai.cv) / [AI Builders & Operators](https://www.skool.com/claude-code-titans-9203) / [YouTube](https://www.youtube.com/@chris-ai-systems)
